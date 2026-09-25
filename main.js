@@ -8,7 +8,7 @@
     return;
   }
 
-  const QX999_PASSWORD = "titanx123@#";
+  const QX999_PASSWORD = "maxtrader123@#";
   const PW_STORAGE_KEY = "qx999_saved_password";
 
   function getSavedPassword() {
@@ -112,7 +112,7 @@
     overlay.id = "qx999-login-overlay";
     overlay.innerHTML = `
       <div id="qx999-login-box">
-        <h3>TITAN X Login</h3>
+        <h3>MAX TRADER Login</h3>
         <p>Enter password to continue</p>
         <input id="qx999-login-input" type="password" autocomplete="current-password" />
         <button type="button" id="qx999-login-btn">Enter</button>
@@ -159,8 +159,8 @@
     window.__QX999_ACTIVE__ = true;
 
   const LOGO_URL =
-    "https://i.postimg.cc/hPXqwchD/IMG-20260923-172417-180.jpg";
-  const LABEL = "TITAN X";
+    "https://i.postimg.cc/zXZDFnL1/IMG-20260925-202135-473.jpg";
+  const LABEL = "MAX TRADER";
   const STORAGE_KEY = "qx999_settings_v1";
   const TAP_REQUIRED = 3;
   const TAP_SETTLE_MS = 380;
@@ -480,7 +480,7 @@
   const panel = document.createElement("div");
   panel.id = "qx999-panel";
   panel.innerHTML = `
-    <h3>TITAN X Settings</h3>
+    <h3>MAX TRADER Settings</h3>
     <div class="qx999-row">
       <label>Scan delay (seconds)</label>
       <input id="qx999-delay-input" class="qx999-time-input qx999-input-block" type="number" min="1" max="120" step="1" />
